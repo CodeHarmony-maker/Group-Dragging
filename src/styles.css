@@ -1,0 +1,237 @@
+/* .target {
+    position: relative;
+    width: 50%;
+    height: 250px;
+} */
+/* .target:hover {
+    outline: 2px solid blueviolet;
+} */
+/* .bb{
+    left: 300px;
+} */
+
+/* .target span {
+    position: absolute;
+    font-size: 60px;
+    text-align: center;
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.target svg {
+    position: absolute;
+    padding: 5px 10px;
+} */
+/* 
+.target span:nth-child(2) {
+    top: 40px;
+    left: -10px;
+}
+
+.target span:nth-child(3) {
+    top: 90px;
+    left: 80px;
+}
+ */
+.Group-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 150px;
+  margin: 20px;
+  background: cornflowerblue;
+  border: none;
+  /* padding: 10px; */
+  border-radius: 7px;
+}
+
+.AREA {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+}
+.rm-scrl {
+  flex: 1;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 50px;
+  outline: 2px solid;
+}
+.RM-2 {
+  margin: 0 auto;
+  width: 80%;
+}
+.SECTION-1 > img {
+  width: 100%;
+}
+/* styles1.css */
+.focus-visible {
+  outline: none;
+  border: none;
+}
+.otterDIV span,
+.randerHTML span {
+  white-space: pre-wrap;
+}
+.otterDIV path:hover {
+  padding: 5px;
+  outline: 2px solid rgb(248, 65, 41);
+}
+
+.otterDIV span:focus,
+svg:focus,
+path:focus,
+.randerHTML span:focus {
+  outline: none;
+}
+.moveable-direction.moveable-ne,
+.moveable-direction.moveable-sw,
+.moveable-direction.moveable-nw,
+.moveable-direction.moveable-se {
+  content: "";
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 6px !important;
+  background: #fff !important;
+  box-shadow: 0 0 5px 1px rgba(14, 19, 24, 0.15),
+    0 0 0 1px rgba(14, 19, 24, 0.2) !important;
+  -webkit-border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+  -ms-border-radius: 6px !important;
+  -o-border-radius: 6px !important;
+}
+.moveable-direction.moveable-w,
+.moveable-direction.moveable-e {
+  margin-top: -6px !important;
+  margin-left: -3px !important;
+  width: 5px !important;
+  height: 10px !important;
+  border-radius: 6px !important;
+  background: #fff !important;
+  box-shadow: 0 0 5px 1px rgba(14, 19, 24, 0.15),
+    0 0 0 1px rgba(14, 19, 24, 0.2) !important;
+}
+.moveable-direction.moveable-n,
+.moveable-direction.moveable-s {
+  margin-left: -10px !important;
+  margin-top: -3px !important;
+  width: 18px !important;
+  height: 5px !important;
+  border-radius: 6px !important;
+  background: #fff !important;
+  box-shadow: 0 0 5px 1px rgba(14, 19, 24, 0.15),
+    0 0 0 1px rgba(14, 19, 24, 0.2) !important;
+}
+.moveable-line.moveable-rotation-line .moveable-control {
+  width: 28px;
+  height: 28px;
+  border-color: transparent !important;
+  background: #fff 2px no-repeat;
+  background-size: 16px;
+  /* background-image: url("./assets/images/cursorshape.svg") !important; */
+  box-shadow: 0 0 5px 1px rgba(14, 19, 24, 0.15),
+    0 0 0 1px rgba(14, 19, 24, 0.15) !important;
+  /* cursor: -webkit-image-set(
+        url("./assets/images/cursorshape.png") 1x,
+        url("./assets/images/cursorshape2.png") 2x
+      )
+      12 12,
+    auto !important; */
+}
+.moveable-line.moveable-rotation-line .moveable-control:hover {
+  content: "Hello";
+}
+.moveable-line.moveable-rotation-line {
+  background: transparent !important;
+}
+.moveable-line {
+  background: #00c8c2 !important;
+}
+.RotationAngle {
+  display: block;
+}
+.randerHTML span {
+  word-break: break-word;
+}
+.moveable-n,
+.moveable-s,
+.HideNode {
+  display: none;
+}
+.nohover:hover {
+  outline: none !important;
+}
+.SECTION-1 {
+  position: relative;
+  clear: both;
+  display: block;
+}
+.loop {
+  position: relative;
+}
+.crsr {
+  cursor: pointer;
+}
+.section-1 {
+  margin-top: 20px;
+  position: relative;
+  clear: both;
+  display: block;
+}
+.section-1 p {
+  margin-bottom: 0px;
+}
+
+.cube {
+  display: inline-block;
+  border-radius: 5px;
+  margin: 4px;
+  --color: #4af;
+}
+
+.selecto-area .selected {
+  color: #fff;
+  outline: 5px solid red;
+  background: #4af;
+}
+.empty.elements {
+  border: none;
+}
+
+.green-btn {
+  background: greenyellow;
+  width: 10%;
+  margin: 20px;
+  height: 40px;
+  border: none;
+}
+.blue-btn {
+  background: rgb(220, 182, 255);
+  width: 10%;
+  margin: 20px;
+  height: 40px;
+  border: none;
+}
+.dsbl-btn {
+  background: rgb(8 8 8 / 9%);
+  width: 10%;
+  margin: 20px;
+  height: 40px;
+  border: none;
+}
+.RM {
+  flex: 1 1;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 50px;
+}
